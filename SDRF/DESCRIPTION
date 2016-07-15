@@ -1,0 +1,19 @@
+Package: SDRF
+Title: Spatially Aware Random Forests Classification based on randomForest 
+    Package
+Version: 0.0-1
+Date: 2016-01-07
+Depends:
+    R (>= 2.5.0),
+    stats,
+    randomForest (>= 4.6.10)
+Author: Fortran original by Leo Breiman and Adele Cutler, R port by
+    Andy Liaw and Matthew Wiener, small changes by Francisco Alonso-Sarria.
+Description: Spatially Aware Random Forests Classification based on randomForest
+    Package.
+Maintainer: Francisco Alonso-Sarria <alonsarp@um.es>
+License: GPL (>= 2)
+Packaged: 2016-01-07 12:18:43 UTC;
+NeedsCompilation: yes
+Date/Publication: 2016-01-07 12:18:43
+RoxygenNote: 5.0.1
