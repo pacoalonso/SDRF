@@ -44,6 +44,6 @@
     if (!is.null(attr(y, "na.action"))) {
         attr(ret$predicted, "na.action") <- ret$na.action <- attr(y, "na.action")
 	}
-    class(ret) <- c("SDRF.formula", "SDRF")
+    class(ret) <- c("randomForest")
     return(ret)
 }
